@@ -1,0 +1,416 @@
+// Override this file to add your own SCSS styling.
+
+$text-primary-color: #b509ac;
+$dark-text-primary-color: #efcc00;
+$dark-text-color: #e8e8e8;
+$border-color1: rgba(0,0,0,0.1);
+$dark-border-color1: #424246;
+
+
+@media (min-width: 992px) {
+  .container, .container-xl {
+    max-width: 1000px;
+  }
+}
+
+
+body, h1, h2, h3, h4, h5, h6 {
+  font-family: "Roboto", sans-serif;
+  color: #000000;
+}
+
+body.dark, .dark h1, .dark h2, .dark h3, .dark h4, .dark h5, .dark h6 {
+  color: $dark-text-color;
+}
+
+body {
+  color: #000000;
+  font-weight: 300;
+}
+
+
+ a:hover  {
+  text-decoration: underline !important;
+  color: $text-primary-color;
+}
+
+#navbar-main .main-menu-item ul li .nav-link:hover {
+  text-decoration: none !important;
+  color: $text-primary-color;
+}
+
+.dark a:hover {
+  text-decoration: underline !important;
+  color: $dark-text-primary-color !important;
+}
+
+
+.dark .navbar {
+  box-shadow: unset;
+  border-bottom: 1px solid $dark-border-color1;
+  background: #1c1c1d;
+}
+body.dark, .dark .home-section, .dark .home-section:nth-of-type(even) {
+  background: #1c1c1d;
+}
+
+.navbar {
+  font-size: 1rem;
+  box-shadow: unset;
+  border-bottom: 1px solid $border-color1;
+
+
+
+  .navbar-nav .nav-link.active {
+     font-weight: 400 !important;
+  }
+}
+.navbar-light {
+  font-weight: 300;
+}
+
+
+
+
+
+.page-publication {
+
+  .year-flag {
+    border-top: 1px solid $border-color1;
+    .year-text {
+      font-weight: 300;
+      font-size: 2rem;
+      color: $border-color1;
+      padding: 1rem 0 1.5rem 0;
+      text-align: right;
+    }
+  }
+
+  .pub-title {
+    font-weight: bold;
+  }
+  .pub-icon {
+   font-size: 1rem;
+  }
+  .title-link {
+    color: #000000;
+  }
+  .stream-item:not(:last-child) {
+    margin-bottom: 4rem;
+  }
+
+  .pub-authors {
+    color: #666666;
+   strong {
+     font-weight: bold;
+   }
+  }
+}
+
+
+.home-section {
+  padding: 1rem 0;
+}
+.home-section:nth-of-type(even) {
+  background: #fff;
+}
+
+.home-bottom-wrap {
+  display: none;
+}
+.site-header-container {
+  display: none;
+  color: #fff;
+  text-shadow: 0 2px 1px rgba(0, 0, 0, 0.67) !important;
+  background-position: bottom;
+  background-size: cover;
+  margin: 5px 0 0 0;
+  .scrim  {
+    padding: 9em 1em !important;
+
+    .site-header {
+      text-align: center;
+    }
+    .title {
+      font-size: 3rem;
+      color: #fff;
+    }
+  }
+}
+.publications-ph {
+  display: block !important;
+}
+
+.wg-about {
+
+  .short-code-image {
+    float: right;
+    width: 35%;
+    margin-top: 0.5rem;
+    padding: 0 1rem 2rem 1rem;
+    img {
+      margin: 0 !important;
+    }
+    .img-desc {
+      padding-top: 0.5rem;
+      color: rgba(0, 0, 0, .54);
+      text-align: center;
+      //text-indent: initial;
+    }
+  }
+
+
+  #profile {
+    padding: 8rem 0 0 0.5rem;
+  }
+  ul.ul-edu li .description p.institution {
+    font-size: 0.75rem;
+    //color: $text-primary-color;
+    color: #000000;
+  }
+  .edu-details {
+    display: none;
+    .e-school {
+      font-weight: bold;
+    }
+
+  }
+  h2 {
+    font-size: 2rem;
+    font-weight: 300 !important;
+  }
+
+  .about-name {
+    font-size: 2.5rem;
+    font-weight: 300;
+    text-align: center;
+    padding: 1rem 0;
+    span {
+      font-weight: 700;
+    }
+  }
+}
+
+.dark {
+  .wg-bottom .social-links a {
+    color: $dark-text-color;
+  }
+}
+
+
+.wg-bottom {
+  .social-links{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 900;
+    padding: 2rem 0 0 0;
+
+    a   {
+      color: #000000;
+      transition-property: all .2s ease-in-out;
+    }
+
+    a:hover {
+      color: $text-primary-color;
+      text-decoration: unset;
+    }
+
+  }
+
+  .home-bottom-email-text {
+    text-align: center;
+    font-size: 0.8rem;
+  }
+}
+
+
+.article-style {
+  p{
+    text-indent: 2rem;
+  }
+
+}
+
+.page-title {
+
+}
+.research-list-wrap {
+
+  .r-group {
+    font-size: 1.5rem;
+  }
+
+}
+.dark .research-list-wrap{
+
+}
+
+
+
+
+
+.cv-list-wrap {
+  .card .card-text p + ul {
+    margin-top: 0rem;
+  }
+
+  .cv-item {
+    .card-title::marker {
+      font-size: 1rem;
+    }
+    .card-title {
+      display: list-item;
+      list-style: inside disclosure-closed;
+
+      cursor: pointer;
+      font-size: 1.5rem;
+
+    }
+    .card-text {
+      display: none;
+    }
+
+
+    .card-text {
+
+      .row {
+        padding: 0.5rem 0 1rem 0;
+        border-top: 1px solid rgba(0,0,0,0.1);
+      }
+      .map-value {
+        i {
+          color: $text-primary-color;
+        }
+      }
+      p {
+        color: #000000;
+        font-size: 1rem;
+      }
+      strong {
+        font-weight: bold;
+      }
+    }
+  }
+  .cv-item .open {
+    .card-title {
+      list-style: inside disclosure-open;
+    }
+    .card-text {
+      display: block;
+    }
+
+  }
+
+
+  .cv-item.time_table {
+    .key-content {
+      background-color: $text-primary-color;
+      color: #ffffff;
+
+      display: inline-block;
+      padding: 0.25em 0.4em;
+      font-size: 75%;
+      font-weight: 700;
+      line-height: 1;
+      text-align: center;
+      white-space: nowrap;
+      vertical-align: baseline;
+      border-radius: 0.25rem;
+    }
+  }
+
+  .map {
+    .map-key {
+      font-weight: bold;
+    }
+    .map-value {}
+  }
+}
+
+
+
+.activities-list-wrap {
+  .act-item {
+    padding: 1rem 0;
+    .act-img {
+      padding: 0.2rem 0;
+    }
+    .act-content {
+      h2 {
+        margin-top: 0;
+      }
+    }
+
+    .act-desc {
+      h5 {
+        font-size: 0.8rem;
+        font-weight: normal;
+      }
+    }
+  }
+}
+
+
+.gallery-list-wrap {
+  .gallery-item {
+    margin: 1.5rem 0 ;
+    background: #ffffff center;
+
+    a {display: block;}
+
+    img {
+      width: 100%;
+      max-width: 100%;
+      height: auto;
+      user-select: none;
+      vertical-align: middle;
+      transition: 0.3s;
+      position: relative;
+    }
+    .img-desc {
+      color: #333333;
+      padding: 0.5rem;
+      min-height: 5rem;
+    }
+  }
+}
+
+
+
+.page-footer {
+  margin: 4rem 0 2rem 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  footer {
+    margin: 3rem 0 0 0;
+  }
+
+  .hot-line {
+    font-size: 1rem;
+    span {
+      color: $text-primary-color;
+      font-weight: bold;
+    }
+  }
+
+}
+
+
+// 手机
+@media (max-width: 780px) {
+
+  .wg-about {
+    .short-code-image {
+      width: 45%;
+    }
+    .profile-text {
+      order: 10;
+    }
+    #profile {
+      padding: 0rem 0.5rem;
+    }
+  }
+  .research-list-wrap {
+    grid-template-columns: 1fr !important;
+  }
+
+}

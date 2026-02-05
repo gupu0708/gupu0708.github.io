@@ -1,0 +1,14 @@
+<!-- get value from params -->
+
+{{ $class := .Get "class" }}
+{{ $src := .Get "src" }}
+{{ $desc := .Get "desc" }}
+{{ $style := .Get "style" }}
+
+
+<div class="short-code-image {{$class}} " >
+  <img  src="{{ relURL $src }}"  style="{{ $style | safeCSS }}" />
+  {{ with $desc }}
+  <div class="img-desc">{{ . | markdownify  | emojify }}</div>
+  {{ end }}
+</div>
