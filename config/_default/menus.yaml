@@ -9,30 +9,17 @@ main:
     url: ''
     weight: 10
 
-  - name: 医疗思想
-    url: 'thoughts'
+  - name: 病例
+    url: 'Examples'
     weight: 30
-
-
-  - name: 专长领域
-    url: 'profession'
-    weight: 40
-
-
-
-  - name: 诊疗手法
-    url: 'techniques'
-    weight: 50
-
 
   - name: 学术专著
     url: 'publications'
+    weight: 40
+
+  - name: 联系方式
+    url: 'contact'
     weight: 60
-
-
-  - name: 媒体报道
-    url: 'media'
-    weight: 110
 
 
 
