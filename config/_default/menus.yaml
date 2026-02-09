@@ -10,7 +10,7 @@ main:
     weight: 10
 
   - name: 病例
-    url: 'Examples'
+    url: 'examples'
     weight: 30
 
   - name: 学术专著
