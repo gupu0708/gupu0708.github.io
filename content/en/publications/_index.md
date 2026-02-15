@@ -16,19 +16,7 @@ subtitle:
   desc=""
   >}}
   
-  
-
-{{< image
-  src="images/thoughts/t3.1.png"
-  desc=""
-  >}}
-  
-
-
-{{< image
-  src="images/thoughts/t3.2.png"
-  desc=""
-  >}}
+ 
   
   
   
