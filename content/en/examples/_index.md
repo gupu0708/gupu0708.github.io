@@ -15,7 +15,7 @@ subtitle:
 • <span style="background:#fff3b0; padding:2px 6px; border-radius:6px; font-weight:700;">骨伤关节病：</span></br>
 病例1: 19xx年，某，80岁，</br>
 病例2: 19xx年，某，xx岁，</br>
-病例3: 2026年，曾某，女，76岁，十六胸椎第二腰椎挤压性骨折，经喻老用自制内服外用接骨丹调理两个月，从卧床不起到行走自如，X光显示有新骨骼生长。</br>
+病例3: 2026年，曾某，女，76岁，十二胸椎第二腰椎挤压性骨折，经喻老用自制内服外用接骨丹调理两个月，从卧床不起到行走自如，X光显示有新骨骼生长。</br>
 
 • <span style="background:#fff3b0; padding:2px 6px; border-radius:6px; font-weight:700;">心脑血管与神经疾病：</span></br>
 病例1: 19xx年，赵某，男，80岁，心电图显示终末期心脏病，喻老用祖传长寿丹调理. </br>
